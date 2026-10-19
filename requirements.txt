@@ -1,0 +1,10 @@
+# Google Colab already provides all of these. Only needed for a local run (Python 3.10-3.12, NVIDIA GPU recommended).
+tensorflow>=2.16,<2.21   # developed for TF 2.20 / Keras 3 (the Colab version used in Assignment 1)
+keras>=3.0
+numpy
+pandas
+matplotlib
+pillow
+scikit-learn
+tqdm
+kagglehub
