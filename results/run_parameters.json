@@ -1,0 +1,26 @@
+{
+  "dataset": "blourdhuraju/dogs-vs-cats-classification",
+  "seed": 42,
+  "images": 24930,
+  "train": 15705,
+  "val": 1746,
+  "test": 7479,
+  "hr_size": 128,
+  "lr_size": 32,
+  "srgan_train_images": 5000,
+  "res_blocks": 16,
+  "srgan_batch": 16,
+  "pretrain_epochs": 10,
+  "gan_epochs": 150,
+  "adv_weight": 0.001,
+  "content_loss": "VGG54 (block5_conv4) / 12.75",
+  "clf_epochs": [
+    5,
+    5
+  ],
+  "tensorflow": "2.21.0",
+  "keras": "3.13.2",
+  "gpu": [
+    "/physical_device:GPU:0"
+  ]
+}
